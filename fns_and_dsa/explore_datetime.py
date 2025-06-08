@@ -1,9 +1,9 @@
-from datetime import datetime as dt
+from datetime import datetime
 from datetime import timedelta
 
 
 def display_current_datetime():
-    current_date = dt.now()
+    current_date = datetime.now()
     return current_date
 
 
