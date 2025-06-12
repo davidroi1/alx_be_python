@@ -1,15 +1,15 @@
 num_1 = int(input("Enter the first number:"))
 num_2 = int(input("Enter the second number:"))
-operator = input("Choose the operation (+, -, *, /):")
+match_operation = input("Choose the operation (+, -, *, /):")
 
 
-if operator == '+':
+if match_operation == '+':
     print(f'The result is {num_1 + num_2}.')
-elif operator == '-':
+elif match_operation == '-':
     print(f'The result is {num_1 - num_2}.')
-elif operator == '*':
+elif match_operation == '*':
     print(f'The result is {num_1 * num_2}.')
-elif operator == '/':
+elif match_operation == '/':
     if num_2 == 0:
         print("Cannot divide by zero.")
     else:
